@@ -12,6 +12,7 @@
 
 .wrapper {
   max-width: 500px;
+  margin: 0px auto;
   height: 100vh;
   background: #212121;
   font-family: var(--Inter);
@@ -74,6 +75,7 @@ input::-webkit-inner-spin-button {
 }
 
 .btn {
+  cursor: pointer;
   margin: 20px 0px;
   display: block;
   border: none;
