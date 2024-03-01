@@ -74,6 +74,12 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn {
   cursor: pointer;
   margin: 20px 0px;

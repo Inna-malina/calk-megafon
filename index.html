@@ -14,55 +14,61 @@
 
 <body>
   <div class="wrapper">
-    <div class="center">
-      <h1>Калькулятор</h1>
-      <div class="table-fluid">
-        <p class="input-fluid">
-          <label class="label" for="critic">Критики</label>
-          <input class="input" id="critic" type="number">
-        </p>
-        <p class="input-fluid">
-          <label class="label" for="neutral">Нейтралы</label>
-          <input class="input" id="neutral" type="number">
-        </p>
-        <p class="input-fluid">
-          <label class="label" for="promoter">Промоутеры</label>
-          <input class="input" id="promoter" type="number">
-        </p>
-      </div>
-    </div>
-    <div class="center">
-      <button class="btn"> результат </button>
-    </div>
-    <div class="center">
-      <div class="resalts-container">
-        <div class="input-fluid">
-          <label class="resalt-title">Всего оценок</label>
-          <input class="resalt" disabled></input>
-        </div>
-        <div class="input-fluid">
-          <label class="resalt-title">NPS % фактический</label>
-          <input class="nps-fact" disabled></input>
-        </div>
-        <div class="input-fluid">
-          <label class="resalt-title">Не хватает промоутеров для 75%</label>
-          <input class="resalt-75" disabled></input>
-        </div>
-        <div class="input-fluid">
-          <label class="resalt-title">Не хватает промоутеров для 77%</label>
-          <input class="resalt-77" disabled></input>
-        </div>
-        <div class="input-fluid">
-          <label class="resalt-title">Не хватает промоутеров для 79%</label>
-          <input class="resalt-79" disabled></input>
+    <form action="#">
+      <div class="center">
+        <h1>Калькулятор</h1>
+        <div class="table-fluid">
+          <p class="input-fluid">
+            <label class="label" for="critic">Критики</label>
+            <input class="input" id="critic" type="number">
+          </p>
+          <p class="input-fluid">
+            <label class="label" for="neutral">Нейтралы</label>
+            <input class="input" id="neutral" type="number">
+          </p>
+          <p class="input-fluid">
+            <label class="label" for="promoter">Промоутеры</label>
+            <input class="input" id="promoter" type="number">
+          </p>
         </div>
       </div>
-      <div class="circle-container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+      <div class="center">
+        <div class="button-container">
+          <button class="btn"> результат </button>
+          <button class="btn btn-reset"> очистить </button>
+        </div>
       </div>
-    </div>
+      <div class="center">
+        <div class="resalts-container">
+          <div class="input-fluid">
+            <label class="resalt-title">Всего оценок</label>
+            <input class="resalt" disabled></input>
+          </div>
+          <div class="input-fluid">
+            <label class="resalt-title">NPS % фактический</label>
+            <input class="nps-fact" disabled></input>
+          </div>
+          <div class="input-fluid">
+            <label class="resalt-title">Не хватает промоутеров для 75%</label>
+            <input class="resalt-75" disabled></input>
+          </div>
+          <div class="input-fluid">
+            <label class="resalt-title">Не хватает промоутеров для 77%</label>
+            <input class="resalt-77" disabled></input>
+          </div>
+          <div class="input-fluid">
+            <label class="resalt-title">Не хватает промоутеров для 79%</label>
+            <input class="resalt-79" disabled></input>
+          </div>
+        </div>
+        <div class="circle-container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </form>
+
   </div>
 
   <script src="index.js" type="text/javascript"></script>
